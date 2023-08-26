@@ -25,7 +25,7 @@ header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width:100%;
+    width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
@@ -42,18 +42,30 @@ h1 {
 }
 
 #menu {
-    font-size:110%; 
+    font-size: 110%;
     letter-spacing: 4px;
-    list-style-type:none;
+    list-style-type: none;
 }
 
-#menu > li{
-margin-bottom: 1em;
+#menu>li {
+    margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/*Navbar style with dropdown toogle*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left:0;
+    padding:0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
+
 /*Main content*/
 main {
     background-color: lightblue;
