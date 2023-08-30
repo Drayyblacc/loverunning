@@ -1,20 +1,19 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
-/* Asterisk wildcard selector to override default styles added by the browser*/
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles*/
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*General project styles*/
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -22,17 +21,13 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
 
-.hidden-heading {
-    display: none;
-}
-
-/*Header*/
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -43,13 +38,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu {
@@ -66,7 +59,7 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*Navbar style with dropdown toogle*/
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -78,37 +71,36 @@ nav {
     top: 100%;
 }
 
-/*Nav toggle*/
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
 
 #nav-toggle {
     display: none;
-    font-size: 2rem;
 }
 
 .nav-toggle-label {
     font-size: 2rem;
 }
 
-/*Main content*/
+/* Main content */
 main {
-    /*Main content to take up any surplus space to push footer down*/
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-/*Hero section*/
+/* Hero section */
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
 #cover-text {
-    /*Final rgba value sets the opacity so it is semi-transparent*/
+    /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
@@ -122,7 +114,6 @@ main {
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
-
 }
 
 /* Reasons section */
@@ -169,11 +160,10 @@ main {
     justify-content: center;
 }
 
-
-/*Meetup Section*/
+/* Meetup Times section */
 #times {
-    background: url(../images/dublin-city.webp) no-repeat center/cover;
-    /*Handles responsivity without need of media query*/
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
@@ -183,30 +173,30 @@ main {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
-    /*This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row*/
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
-    /*Creates a grid of meetup time dives over the background image*/
+    /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
 
 #times h3 {
+    /* Override the heading colour set in general styles */
     color: #fafafa;
 }
 
-/*Gallery Page*/
+/* Gallery page */
 #photos img {
     width: 100%;
     line-height: 1em;
-
 }
 
 #photos {
     line-height: 0;
 }
 
-/*Footer*/
+/* Footer */
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -215,7 +205,13 @@ main {
     list-style-type: none;
 }
 
-/*Media query : large or landscape phones (576px and up)*/
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
@@ -223,11 +219,10 @@ main {
     }
 }
 
-
-/*Media query : tablets and larger (768px and up)*/
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /*Header*/
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -254,22 +249,24 @@ main {
         margin: 0 0.5rem;
     }
 
+    /* Main content */
     main {
-        /*Push main content down to accomodate larger header*/
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
-    #social-networks i {
-        font-size: 160%;
-        padding: 5%;
-        color: #3a3a3a;
-    }
-
-    /*Hero*/
+    /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
+    }
 
+    /* Reasons section */
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     #benefits-physical>div,
@@ -281,12 +278,22 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 
