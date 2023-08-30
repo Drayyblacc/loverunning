@@ -215,6 +215,35 @@ main {
     color: #3a3a3a;
 }
 
+/*Sign Up Page*/
+#signup_main {
+    flex: column;
+}
+
+#signup h2 {
+    color: #fafafa;
+}
+
+#signup {
+    background-image: url("assets/images/athletes.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    transparent,
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
