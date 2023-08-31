@@ -200,19 +200,8 @@ main {
     line-height: 0;
 }
 
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+#gallery {
+    padding-top: 0%;
 }
 
 /*Sign Up Page*/
@@ -223,6 +212,8 @@ main {
 #signup h2 {
     color: #fafafa;
 }
+
+#join_button {}
 
 #signup {
     background-image: url("assets/images/athletes.webp");
@@ -242,6 +233,21 @@ main {
     color: #fafafa;
     border: 1px solid #fafafa;
     border-radius: 2px;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: large or landscape phones (576px and up) */
