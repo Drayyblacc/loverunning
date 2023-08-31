@@ -376,6 +376,7 @@ main {
     #photos {
         column-count: 4;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
