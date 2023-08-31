@@ -156,7 +156,7 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Makes the square image into a circle */
+    /* Makes the square image into a circle on index.html */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -204,7 +204,7 @@ main {
     line-height: 0;
 }
 
-/* Form */
+/* Signup Page */
 #signup {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
@@ -343,7 +343,7 @@ main {
         column-count: 3;
     }
 
-    /* Form */
+    /* Signup */
     #signup {
         background-position: center;
         position: relative;
