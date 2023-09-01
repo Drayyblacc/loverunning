@@ -159,7 +159,7 @@ I have tried my best to ensure the site has been made as accessible as possible 
 
 ### Languages Used
 
-HTML, CSS and Javascript for the go back to top button was used to create this website.
+HTML and CSS was used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
