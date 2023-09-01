@@ -1,17 +1,16 @@
 # LOVE RUNNING BY DERECK YASU
 
-Welcome to Love Running by Dereck - a website for a real business, run by myself. I hadn't created a website for the business so thought it was the perfect opportunity for this first project. 
+Welcome to Love Running by Dereck - a portfolio website for html. I have built websites before but with wordpress and this is my first website fully on code HTML and CSS.
 
-Love Running website was built in html and css and it is responsive on all devices. As a visitor you can view a gallery of previously made runs from our athletes, with a call-to-action to get in touch with the use of a form.
+Love Running website was built in html and css and it is responsive on all devices. As a visitor you can view a gallery of previously sucessful runs from our athletes in the city, beach and mud runs, with a call-to-action to get in touch with the use of a form.
 
-![Love running by Dereck shown on all range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/Screenshot%202023-09-01%20at%2000.21.06.png)
+![Love running by Dereck shown on all range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/readme-images/Screenshot.png)
 
 TO VIEW THE LATEST WEBSITE
 [You can see the live website here.](https://drayyblacc.github.io/loverunning)
 
 ALL GITHUB PAGES
 [You can see the GitHub code pages here.](https://github.com/Drayyblacc/loverunning)
-
 
 ---
 
@@ -34,8 +33,7 @@ ALL GITHUB PAGES
       - [Home Page](#home-page)
       - [Gallery](#gallery)
       - [Contact](#contact)
-      - [Thank You](#thank-you)
-    - [Future Implementations](#future-implementations)
+      - [Congratulations](#congratulations)
     - [Accessibility](#accessibility)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
@@ -57,107 +55,98 @@ ALL GITHUB PAGES
 
 ### User Stories
 
-Blush Bakes by Rach is run by a local cake artist who would like to have more of an online presence. Although the business has Facebook and Instagram pages, they are aware that not everybody has social media. By having a website it enables the company to be more accessible online to more potential customers.
+Love Running by Dereck is a website made to invite runners to join the Dublin club for city, beach and mud run to help the client to be feel more healthy, feel strong, feel free and get social. With Love Running website it helps them to be more accessible online and get more potential runners.
 
 #### Client Goals
 
-- For potential customers to see the variety of cakes and treat boxes available to order.
-- To showcase previously made cakes so that customers can see the style of cakes Blush Bakes by Rach creates.
-- To allow visitors to the site to get in touch with Blush Bakes by Rach with an enquiry.
-- An informative contact form so that the visitor can fill in as much information as they can on their first contact.
+- For potential runners to give information about the club scheduled days and times and also links to their social media platforms.
+- To showcase previously made runs so that customers can see some of the made runs.
+- To allow visitors to the site to get in touch with Love Running with an enquiry.
+- With the information captureing contact form it allows visitors to put down their details so the Love Running team can contact them easily.
 - To be able to see and do all of the above on any device, whether a mobile phone or a desktop computer.
 
 #### First Time Visitor Goals
 
-- I want to see what cakes they have made in the past.
-- I want to see what else they do other than cakes.
-- I want to get in touch to see if they have availability for my celebration.
+- I want to see what their runs look like.
+- I want to see where they run.
+- I want to get in touch for more information or enquire before joining.
 - I want to find information easily without too many clicks.
 - I want to find out more on their Social Media pages.
 
 #### Returning Visitor Goals
 
 - I want to have another look at the gallery for inspiration.
-- I want to follow up my previous viewing of the site to now get in touch with Blush Bakes by Rach.
+- I want to follow up my previous viewing of the site to now get in touch with Love Running club.
 
 #### Frequent Visitor Goals
 
-- I want to see the cake I had made on the gallery page.
-- I want to recommend Blush Bakes by Rach to friends and family.
+- I want to see the times and places for the run happening throughout the week.
+- I want to recommend Love Running to my friends, collegues and family.
 
 ---
+
 ## Design
 
 ### Colour Scheme
 
-The colour scheme for the website came from the colours that have been used in the logo. The gold was originally a lighter gold, but in order to ensure good visibility against the light background, it was made slightly darker. The idea was to keep the website looking fresh and bright, whilst still easy to read.
+The colour scheme for the website come from that were added by the Project Tutor of Code Institute. The idea was to keep the website looking colourfull and beautiful, whilst still easy to read.
 
-![Blush Bakes by Rach colour palette](assets/images/readme-images/colour-palette.png)
+![Blush Bakes by Rach colour palette](assets/images/readme-images/Colors%20for%20Love%20running.png)
 
 ### Typography
 
-The fonts used on the website were chosen to contrast each other, with one being a cursive font to closely match the font within the logo, and the other a sans-serif to ensure the main body of the website can be read clearly.
+The fonts used on the website was chosen to make sure text is clear in all devices sizes
 
 Google Fonts was used to import both fonts:
-- Reenie Beenie is the cursive font used on the headings. This uses both a bolder and a lighter font weight.
-- Raleway is the sans-serif font used on the main body. It is mainly used in the normal weight, apart from links which are bold.
 
-![Google Fonts used on Love Running by Dereck](assets/images/readme-images/Colors-for-Love-running.png)
+- Lato is the font used on all of the text on the website. This include both a bolder and a lighter font weight.
 
-Font Awesome is also used for bullet points and the 'back to top' arrow on the website.
+![Google Fonts used on Love Running by Dereck](assets/images/readme-images/font.png)
+
+Font Awesome is also used for bullet points and the home index page and sign up page on the website.
 
 ### Imagery
 
-The type of imagery used on the website is all photography, with the odd Font Awesome icon appearing as a bullet point. The photos are all originals taken by myself.
+The imagery on this website is all photography, with the odd Font Awesome icon appearing on home page and sign up page. The photos were from Code Institute and some were from me, only the ones on README.
 
 ## Features
 
-The website contains 4 pages - home page, gallery, contact and a thank you page. Three of these can be accessed via the navigation menu. The thank you page is shown after a visitor has submitted the form on the contact page.
+The Love Running website contains 3 pages - home page, gallery, sign up and congratulation page. All three pages can be accessed via the navigation menu on the right header of all pages and on the click of the hamburger icon on smaller devices or phones. After the client puts their information on the form and click on the Lets Run Button it opens a congradulations page with the data sent from customer being first name, last name, email, email address and running preference.
 
 ### General features on each page
 
-- All pages show the logo on the left of the page and a responsive navigational bar on the right, in a header at the top of the page. 
-- In a footer at the bottom of the page are the social media links for Facebook & Instagram, along with a link to the contact page. These are shown as icons.
+- 3 pages pages show the Love Running text on the left of the page and a responsive navigational bar on the right, in a header at the top of the page.
+- In a footer at the bottom of the page are the social media links for Facebook, Twitter, Youtube & Instagram. These are shown as icons.
 - A favicon of the logo appears in the browser tab.
-- In the bottom right corner, as you start to scroll down, an arrow appears which enables the user to get back to the top of the page.
+****- In the bottom right corner, as you start to scroll down, an arrow appears which enables the user to get back to the top of the page.
 
-![All 4 paged of the website showing they are responsive](assets/images/readme-images/responsive-pages.png)
+![All 4 paged of the website showing they are responsive](assets/images/readme-images/gallery.png)
 
-![All 4 paged of the website showing they are responsive](assets/images/readme-images/headerandfooter.png)
+![All 4 paged of the website showing they are responsive](assets/images/readme-images/signup.png)
 
 #### Home Page
 
-The home page features a bright hero image of some cupcakes and a treat box directly underneath the navigational header. There is some welcome text underneath, which introduces the baker and where they're based.
+The home page features a bright hero image of three people running underneath the navigational header. There is some welcome text on the far right for bigger screens and in the middle for phone and smaller devices, which introduces the Love Running Club and where they're located.
 
-The next section is broken down into images and text, to showcase some of the cakes and treat boxes, and gives the user ideas as to what they can order and for who.
+The next section is broken down into images and text, to give information about why people love running with Love Running club and a lady running, and gives the website users ideas as to what tto expect.
 
-Just above the footer there is another image banner with a call to action to take you to the contact page.
+Just above the footer there is a section showing day, time and place of the run.
 
 #### Gallery
 
-In this top section below the menu header, it starts by asking if the user needs inspiration and to take a look at the gallery. There are 3 anchor links (cakes, cupcakes and treat boxes) which when clicked take you to the appropriate part of the gallery.
-
-The same call to action banner is also at the bottom above the footer.
+In this pages they are a few photos added there for the website viewer to see previous club runs and athletes.
 
 #### Contact
 
-To bring some colour and interest to this page there is a colourful cake banner image below the menu section. It invites users to get in touch using the contact form. Some elements are required before the form can be submitted, and users do get alerted when they haven't filled in these elements.
+On this page they is a background image and color to make the form shine out bright and easy to read and fill. With the contact form thats when they will fill in their information to enquire and all fields are required before the user clicks on submit and users do get alerted when they haven't filled in these required fields.
 
-#### Thank You
+#### Congratulations
 
-A simple page with the same styling as the Contact page. The form elements have been removed and replaced with a 'thank you for submitting' message.
-
-### Future Implementations
-
-- A new page with standard pricing and examples of cakes and their pricing.
-- An information page giving users cake care and cutting guides.
-- A suppliers page - recommendations of where to buy supplies.
-- A 'recipe' page which details flavours available for sponge and fillings, and what options of treat boxes are available.
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+A simple page with different styling as the website. The form elements have been removed and replaced with a 'Congratulations' message.
 
 ### Accessibility
 
-I have tried to ensure the site has been made as accessible as possible by:
+I have tried my best to ensure the site has been made as accessible as possible by:
 
 - Using semantic HTML.
 - Using alt attributes on images where available.
@@ -170,27 +159,27 @@ I have tried to ensure the site has been made as accessible as possible by:
 
 ### Languages Used
 
-HTML and CSS were used to create this website.
+HTML, CSS and Javascript for the go back to top button was used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-- [Codeanywhere](https://app.codeanywhere.com/) - cross platform cloud IDE to deploy workspace environment to Github.
-- [Visual Code Studio](https://balsamiq.com/) - to create Wireframes.
+- [Codeanywhere](https://app.codeanywhere.com/) -  platform cloud IDE to deploy workspace environment to Github.
+- [Visual Code Studio](https://balsamiq.com/) - When codenaywhere had issues i pulled out my code for offline environment to continue working.
 - [Github](https://github.com/) - to store and dislay all files and assets for the website.
 - [Google Fonts](https://fonts.google.com/) - to import the fonts used on the website.
 - [Font Awesome](https://fontawesome.com/icons) - to use icons on the website.
-- [Google Dev Tools](https://developer.chrome.com/docs/) - to troubleshoot, test and solve issues with any styling.
+- [Google Dev Tools](https://developer.chrome.com/docs/) - to troubleshoot using inspect, test and solve issues with any styling.
 - [W3C Markup Validator](https://validator.w3.org/) - to check the source code of my html files for any bugs.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to check the source code of my css file for any bugs.
-- [Tiny PNG](https://jigsaw.w3.org/css-validator/)Photoshop 2023 - to optimise images for the website.
-- [Am I Responsive?](https://ui.dev/amiresponsive?) - to showcase the website on different devices.
+- [Tiny PNG](https://jigsaw.w3.org/css-validator/) - to optimise images for the website.
+- [Am I Responsive?](https://ui.dev/amiresponsive?) - to show the website on different responsive devices.
 
 ### Deployment
 
-I used Github Pages to deploy the live website. To deploy a website on Github, follow these steps:
+I used Github to deploy the live website. To deploy a website on Github, follow these steps:
 
 1. Log in to Github - or set up a new account.
-2. Find the repository for [Love Running by Dereck](https://github.com/rachaelbabister/blush-bakes-by-rach).
+2. Find the repository for [Love Running by Dereck](https://github.com/Drayyblacc/loverunning).
 3. Click on 'Settings' along the top.
 4. Click on 'Pages' in the left hand side navigation bar.
 5. In the 'Source' section, make sure 'Deploy from a branch' is selected. Choose 'main' and 'Root' from the drop down menus and click Save.
@@ -203,7 +192,7 @@ I used Github Pages to deploy the live website. To deploy a website on Github, f
 To fork a repository on Github, follow these steps:
 
 1. Log in to Github - or step up a new account.
-2. Click on the repository for [Blush Bakes by Rach](https://github.com/rachaelbabister/blush-bakes-by-rach).
+2. Click on the repository for [Love Running](https://github.com/Drayyblacc/loverunning).
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -211,13 +200,12 @@ To fork a repository on Github, follow these steps:
 To clone a repository on Github, follow these steps:
 
 1. Log in to Github - or step up a new account.
-2. Find the repository for [Blush Bakes by Rach](https://github.com/rachaelbabister/blush-bakes-by-rach).
+2. Find the repository for [Love Running](https://github.com/Drayyblacc/loverunning).
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and paste the link you copied in step 3. Press enter.
 
 - - -
-
 
 ## Testing
 
@@ -233,18 +221,14 @@ In the TESTING file linked below, you can see the tests and fixes I did manage t
 
 ### Code Used
 
-- [W3Schools](https://www.w3schools.com/howto/howto_css_transition_hover.asp) - helped to style my buttons to have a smoother transition. I also used them for a Font Awesome tooltip, but have since removed the element that used it.
-- [W3Docs](https://www.w3docs.com/snippets/css/display-the-hidden-element-on-hovering-over-hyperlink-or-a-tag.html) - helped to display an element on hover.
-- [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html) - converting hex colours to rgb values.
-- [Stack Overflow](https://stackoverflow.com/questions/51893686/css-columns-fill-row-first) - helped to style my gallery page so that the columns filled the rows across first, rather than down.
+- [W3Schools](https://www.w3schools.com/howto/howto_css_transition_hover.asp) - helped to style my back to top buttons to have a smoother transition.
 - [Free Code Camp](https://www.freecodecamp.org/news/css-only-back-to-top-button/) - helped to code the 'back to top' button using only html and css.
 - [W3Docs](https://www.w3docs.com/tools/code-editor/3033) - styling to increase the checkbox size in the contact form.
-- [Soft Author](https://softauthor.com/css-flexbox-responsive-registration-form-with-source-code/) - used the code in order to help make the contact form responsive by having the form elements go into two columns on a bigger screen.
-- I also used the [Love Running](https://rachaelbabister.github.io/loverunning/) project I created with [Code Institute](https://codeinstitute.net/) to help with some coding.
+- I also used the [Love Running](https://rachaelbabister.github.io/loverunning/) project from Project Tutor created by [Code Institute](https://codeinstitute.net/) to help with some code.
 
 ### Content
 
-All content used on the site was written by Dereck Yasu.
+All content used on the site was written by Dereck Yasu from Code Institute.
 
 ### Media
 
@@ -254,9 +238,7 @@ Most of the photos were provided on the Project 1 tutor of Code Institute and a 
 
 I would like to thank the following people for their help, whether directly or indirectly!
 
-- My two daughters who have been very patient with me whilst doing this project, and helping to walk the dog and clean the house!
-- My Code Institute Mentor [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/?originalSubdomain=ca).
+- My girlfriend for alway believing in me to finish the project in time.
+- My Code Institute  [Tutors](https://www.codeinstitute.net/).
 - Members of the Code Institute Slack community. Although I didn't ask any direct questions for help, when searching for little queries, I always managed to find the answer!
-- My friend Victoria Walters who has had to listen to me chat about code for far too long! And for looking over my site and checking for errors.
-- My friend Kelly Bates who knows nothing about code but still happily looked through my live site for me checking for any issues - and bringing some to my attention!
-- [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) from Code Institute who signed me up to the course! I hope you like my first project!
+- [Scott Clarke](mailto:Scott.clarke@codeinstitute.net) from Code Institute who signed me up to the course! I hope you like my first project!
