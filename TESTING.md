@@ -1,6 +1,6 @@
 # LOVE RUNNING BY DERECK YASU - TESTING
 
-![Love Running website by Dereck shown on a range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/readme-images/Screenshort.png)
+![Love Running website by Dereck shown on a range of devices, using amiresponsive(https://ui.dev/amiresponsive)](assets/images/readme-images/Screenshot.png)
 
 LIVE SITE
 
@@ -14,7 +14,6 @@ LIVE SITE
     - [W3C Validator](#w3c-validator)
     - [Lighthouse](#lighthouse)
     - [Results](#results)
-    
 
  Even if I have been testing the site throughout the development, I made a huge mistake of not documenting all the bugs I have fixed from the start. I will learn to do this on my other next projects!
 
@@ -32,21 +31,25 @@ I used the W3C Validator to check my html and css source code, and also [LightHo
 
 The first check revealed a few errors and unfortunately i do not remember all of them as i did not capture this to my Testing file.
 
-- [index.html]
- - No screenshot, however there was a two closing i tags on all four icons on index page even though they did not cause ony error on the website the validator managed to pick that up and this was removed.
+- ### For the whole website
+
+- No screenshot, however there was a two closing i tags on all four icons on index page even though they did not cause ony error on the website the validator managed to pick that up and this was removed.
+
 - - -
 
 ### Lighthouse
 
 I used Lighthouse Metrics website tools to test the performance, accessibility, best practices and SEO of the website.
 
+[website found here](https://lighthouse-metrics.com/)
+
 ### Results
 
 Desktop results had good high look - in all images and text content. Happy to see Accessibility is 100.
 
-- Full Website Audit 
+- Full Website Audit
   
-![Results](assets/images/readme-images/Screenshot 2023-09-01 at 03.05.59.png)
+![Results](assets/images/readme-images/audit1.png)
 
 - Audit 2
   
