@@ -148,11 +148,10 @@ A simple page with different styling as the website. The form elements have been
 
 I have tried my best to ensure the site has been made as accessible as possible by:
 
-- Using semantic HTML.
-- Using alt attributes on images where available.
+- Using simple HTML.
+- Using alt attributes on images.
 - Adding aria-labels for screen labels.
 - Using colour contrasts between the text and background.
-
 ---
 
 ## Technologies Used
@@ -189,7 +188,7 @@ I used Github to deploy the live website. To deploy a website on Github, follow 
 
 #### How to Fork
 
-To fork a repository on Github, follow these steps:
+To fork a repository on Github, follow below steps:
 
 1. Log in to Github - or step up a new account.
 2. Click on the repository for [Love Running](https://github.com/Drayyblacc/loverunning).
@@ -197,7 +196,7 @@ To fork a repository on Github, follow these steps:
 
 #### How to Clone
 
-To clone a repository on Github, follow these steps:
+To clone a repository on Github, follow below steps:
 
 1. Log in to Github - or step up a new account.
 2. Find the repository for [Love Running](https://github.com/Drayyblacc/loverunning).
@@ -209,9 +208,8 @@ To clone a repository on Github, follow these steps:
 
 ## Testing
 
-I have learnt from this project to ensure I start my TESTING file from the begining in future. I continually test the site as I go along and have fixed many small issues that didn't work straight away, but unfortunately these weren't catalogued.
-
-In the TESTING file linked below, you can see the tests and fixes I did manage to catalogue.
+I have seen that its hard to keep in mind all text errors so i will need to start my testing file earlier or just at the beginning of the project so i will building and adding to the testing file up until the end of the project however i fixed a lot of minor issues through out the code and sometimes my code would not work and had to take it offline to test it and discoved that some times CODEANYWHERE would not push my code to Github and had to be trying again and again but unfortunately i have forgotten the list of the errors. 
+I therefore created a Testing file, so that you can find some few tests and fixes I did manage to remember.
   
 [TESTING.md file](TESTING.md)
 
@@ -221,24 +219,24 @@ In the TESTING file linked below, you can see the tests and fixes I did manage t
 
 ### Code Used
 
-- [W3Schools](https://www.w3schools.com/howto/howto_css_transition_hover.asp) - helped to style my back to top buttons to have a smoother transition.
-- [Free Code Camp](https://www.freecodecamp.org/news/css-only-back-to-top-button/) - helped to code the 'back to top' button using only html and css.
-- [W3Docs](https://www.w3docs.com/tools/code-editor/3033) - styling to increase the checkbox size in the contact form.
-- I also used the [Love Running](https://rachaelbabister.github.io/loverunning/) project from Project Tutor created by [Code Institute](https://codeinstitute.net/) to help with some code.
+- [W3Schools](https://www.w3schools.com/howto/howto_css_transition_hover.asp) - helped me style and create the form.
+- [W3Docs](https://www.w3docs.com/tools/code-editor/3033) - helped me to increase the checkbox size in my signup form.
+- I also used the [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation) project from Project Tutor created by [Code Institute](https://codeinstitute.net/) to help with some code.
 
 ### Content
 
-All content used on the site was written by Dereck Yasu from Code Institute.
+All content used on the site was written by Dereck Yasu and Tutor from Code Institute.
 
 ### Media
 
-Most of the photos were provided on the Project 1 tutor of Code Institute and a few from me that are only on this file. Icons used on the site are Font Awesome icons.
+Most of the photos were provided on the Project 1 tutor of Code Institute and a few from me that are only on this file. Icons used on the website are from Font Awesome.
   
 ### Acknowledgments
 
-I would like to thank the following people for their help, whether directly or indirectly!
+I would like to thank and appreciate the following people that hepled me throughout the project.
 
 - My girlfriend for alway believing in me to finish the project in time.
 - My Code Institute  [Tutors](https://www.codeinstitute.net/).
-- Members of the Code Institute Slack community. Although I didn't ask any direct questions for help, when searching for little queries, I always managed to find the answer!
+- Rachael for helping me and giving me a structure for my readme.
+- Members of the Code Institute Slack. Some managed to respond to my questions and that helped me
 - [Scott Clarke](mailto:Scott.clarke@codeinstitute.net) from Code Institute who signed me up to the course! I hope you like my first project!
